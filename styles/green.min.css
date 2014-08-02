@@ -1,0 +1,19 @@
+a {
+    color: #85e590;
+}
+
+.color {
+    color: #85e590;
+}
+
+.color-bg {
+    background-color: rgba(133,229,144,0.4);
+}
+
+body {
+    background-image: url(../images/onion_blur.jpg);
+    -webkit-transition: opacity 1s ease-in-out;
+  	-moz-transition: opacity 1s ease-in-out;
+  	-o-transition: opacity 1s ease-in-out;
+ 	 transition: opacity 1s ease-in-out
+}

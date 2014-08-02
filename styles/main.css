@@ -1,0 +1,138 @@
+.black-bg {
+    background-color: rgba(0,0,0,0.4);
+    color: white;
+}
+
+.no-bg {
+    color: white;
+}
+.herowrapper {
+    position: absolute;
+    top: 50%;
+    height: 340px;
+    margin-top: -170px;
+    margin-left: 10%;
+    width: 90%;
+}
+
+.herocap {
+    float: left;
+    font-family: "Lato",Verdana,Arial,sans-serif;
+    font-size: 60px;
+    font-weight: 300;
+    text-transform: uppercase;
+    padding: 5px 15px;
+    display: inline-block;
+    clear: both;
+    margin-bottom: 10px;
+}
+
+.herocap.highlight {
+    font-weight: bold;
+}
+
+nav#main {
+position: absolute;
+bottom: 0;
+left: 0;
+right: 0;
+height: 60px;
+background: #000;
+border-bottom: 1px solid #222;
+-webkit-transition: all 0.2s;
+-moz-transition: all 0.2s;
+-o-transition: all 0.2s;
+transition: all 0.2s;
+}
+
+nav#main ul {
+list-style: none;
+height: 60px;
+padding: 0;
+margin: 0;
+text-align: center;
+-webkit-transition: all 0.2s;
+-moz-transition: all 0.2s;
+-o-transition: all 0.2s;
+transition: all 0.2s;
+}
+
+nav#main ul li {
+height: 60px;
+display: inline-block;
+/*border-left: 1px solid #222;*/
+-webkit-transition: all 0.2s;
+-moz-transition: all 0.2s;
+-o-transition: all 0.2s;
+transition: all 0.2s;
+}
+
+nav#main ul li a.active {
+background: #222;
+color: #fff;
+}
+
+nav#main ul li a {
+height: 60px;
+display: inline-block;
+padding: 0 40px;
+line-height: 60px;
+color: #dfdfde;
+font-family: "Oswald", Arial, sans-serif;
+text-transform: uppercase;
+-webkit-transition: all 0.2s;
+-moz-transition: all 0.2s;
+-o-transition: all 0.2s;
+transition: all 0.2s;
+}
+
+nav#main.affix {
+position: fixed;
+z-index: 9999;
+top: 70px;
+bottom: auto;
+height: 40px;
+border-bottom: 1px solid #222;
+}
+
+nav#main.affix ul {
+height: 40px;
+}
+
+nav#main.affix ul li {
+height: 40px;
+}
+
+nav#main.affix ul li a {
+height: 40px;
+line-height: 40px;
+}
+
+
+.black-bg > .row{
+    width: 85%;
+    margin: 50px auto;
+}
+
+.no-bg > .row{
+    width: 85%;
+    margin: 50px auto;
+}
+
+
+.black-bg > .row p{ 
+    color: white;
+}
+
+.no-bg > .row p{
+    color: white;
+}
+
+img.cover-photo {
+display: block;
+-webkit-box-shadow: 0 10px 20px 0 rgba(0,0,0,0.5);
+box-shadow: 0 10px 20px 0 rgba(0,0,0,0.5);
+margin: 30px auto;
+border-radius: 50%;
+width: 200px;
+}
